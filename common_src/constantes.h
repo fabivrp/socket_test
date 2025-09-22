@@ -1,0 +1,39 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+// CLIENT
+#define INVALID_CODE 0xFF
+#define SEND_USERNAME 0x01
+#define SEND_CURRENT_CAR 0x04
+#define GET_MARKET_INFO 0X05
+#define BUY_CAR 0x07
+#define RECIEVE_MESSAGE 0x10
+
+#define SEND_USERNAME_INSTRUCTION "USERNAME"
+#define BUY_CAR_INSTRUCTION "BUY_CAR"
+
+// SERVER
+#define SEND_INITIAL_MONEY 0x02
+#define GET_CURRENT_CAR 0X03
+#define SEND_MARKET_INFO 0x06
+#define SEND_CAR_BOUGHT 0x08
+#define SEND_ERROR_MESSAGE 0x09
+#define SEND_MESSAGE 0x10
+
+#define GREETINGS_MESSAGE "Hello, "
+#define MARKET_SENT_MESSAGE " cars sent"
+#define NO_CAR_BOUGHT_MESSAGE "No car bought"
+#define INITIAL_BALANCE_MESSAGE "Initial balance: "
+#define INSUFFICIENT_FUNDS_MESSAGE "Insufficient funds"
+
+
+#define INVALID_CAR_MODEL ""
+#define INVALID_CAR_PRICE -1
+#define INVALID_YEAR_OF_FABRICATION -1
+
+#define UNSUCCESSFUL_PURCHASE false
+#define SUCCESSFUL_PURCHASE true
+
+#define ERROR -1
+
+#endif  // CONSTANTS_H

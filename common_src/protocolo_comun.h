@@ -1,0 +1,5 @@
+#ifndef PROTOCOLO_COMUN_H
+#define PROTOCOLO_COMUN_H
+
+
+#endif PROTOCOLO_COMUN_H
